@@ -1,0 +1,116 @@
+body {
+    background-color: rgb(170, 170, 170);
+    font-size:16px; /*standaard fontsize. Als je dit veranderd, veranderd al de font-sizes met 'em' aan het einde.*/
+    font-family: 'Alatsi', sans-serif; /*font voor je tekst.*/
+}
+
+main {
+    position: relative;
+    display: block;
+    max-width: 50%;
+    margin: auto;
+}
+
+section {
+    padding: 20px; /*de section heeft een afstand tussen de de content en de rand*/
+    margin-top: 30px; /*de section heeft een afstand tussen de verschillende sections*/
+    background-color: #9fc943;
+    align-self: center;
+}
+
+label {
+    display: inline-block;
+    text-align: right;
+    margin-right: 10px;
+    width: 200px;
+}
+
+input {
+    width: 200px;
+}
+
+input[type=date]{
+    width: 200px;
+}
+
+select {
+    width: 205px;
+}
+
+div {
+    box-sizing: border-box;
+    /*border: 1px solid #1500ff;*/
+}
+
+form {
+    position: center;
+    text-align: center;
+}
+
+nav {
+    background-color: #9fc943;
+}
+
+.header {
+    position: relative;
+    background-color: black;
+    width: auto;
+}
+
+.header_img {
+    opacity: 35%;
+    width: 100%;
+    height: 100%;
+}
+
+.logo {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /*background-color: #ffffff;*/
+}
+
+.centered {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    color: white;
+    font-size:50px;
+    transform: translate(-50%, -50%);
+    color: #9fc943;
+}
+
+.centered2 {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    color: white;
+    font-size:20px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.text-align{
+    text-align: center;
+}
+
+textarea {
+    height: 150px;
+    width: 205px;
+    box-sizing: border-box;
+    resize: none;
+}
+
+
+.button1{
+    height:100px;
+    width:200px;
+    justify-content: center;
+}
+.submit {
+    display: inline-block;
+    margin-top: 5px;
+}
+.button1:hover {background-color: lightskyblue;}
+.submit:hover {background-color: lightskyblue;}

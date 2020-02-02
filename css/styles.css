@@ -1,0 +1,82 @@
+td {
+    padding: 0 5px;
+    padding-top: 20px;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: lightgrey;
+}
+
+body {
+    background-color: rgb(170, 170, 170);
+}
+table {
+    background-color: #b9b980;
+}
+
+/*.testgrid {*/
+/*    display: grid;*/
+/*    grid-template-columns: 1fr 1fr;*/
+/*    grid-template-rows: 1fr 1fr 1fr 1fr;*/
+/*    grid-template-areas:*/
+/*            "title title"*/
+/*            "header header"*/
+/*            "sidebar sidebar"*/
+/*            "content content"*/
+/*            "footer footer";*/
+/*    grid-gap: 1px;*/
+/*    margin-bottom: 10px;*/
+/*}*/
+/*.testgrid div:nth-child(even) {background-color: red;}*/
+/*.testgrid div:nth-child(odd) {background-color: green;}*/
+
+/*.title {grid-area: title;}*/
+/*.header {grid-area: header;}*/
+/*.sidebar {grid-area: sidebar;}*/
+/*.content {grid-area: content;}*/
+/*.footer {grid-area: footer;}*/
+
+.titel {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+            "titelk titelw";
+
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+            "tabelk tabelw";
+    grid-gap: 1px;
+    padding: 0px;
+}
+
+
+.titelk {
+    grid-area: titelk;
+    justify-self: center;
+}
+
+.titelw {
+    grid-area: titelw;
+    justify-self: center;
+}
+
+.tabelk {
+    grid-area: tabelk;
+    justify-self: center;
+}
+.tabelw {
+    grid-area: tabelw;
+    justify-self: center;
+}
+
+/*.titel div:nth-child(even) {background-color: red;}*/
+/*.titel div:nth-child(odd) {background-color: green;}*/
+
+/*.grid div:nth-child(even) {background-color: red;}*/
+/*.grid div:nth-child(odd) {background-color: green;}*/
+
+/*@media screen and (min-width: 736px) {*/
+/*}*/
